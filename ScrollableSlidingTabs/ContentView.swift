@@ -11,11 +11,11 @@ struct ContentView: View {
     @State private var selectedTab: Int = 0
     
     private var tabs: [(title: String, color: Color)] = [
-        ("おすすめ", .cyan),
-        ("トレンド", .green),
-        ("ニュース", .yellow),
-        ("スポーツ", .orange),
-        ("エンターテイメント", .pink)
+        ("For you", .cyan),
+        ("Trending", .green),
+        ("News", .yellow),
+        ("Sports", .orange),
+        ("Entertainment", .pink)
     ]
     
     var body: some View {
