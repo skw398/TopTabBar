@@ -36,8 +36,9 @@ struct ContentView: View {
                     }
                 }
                 .onChange(of: selectedTab, perform: { selectedTab in
+                    let normalized: CGFloat = CGFloat(selectedTab) / CGFloat(tabs.count)
                     withAnimation(.easeInOut) {
-                        scrollProxy.scrollTo(selectedTab, anchor: UnitPoint(x: 0.5, y: 0))
+                        scrollProxy.scrollTo(selectedTab, anchor: UnitPoint(x: normalized, y: 0))
                     }
                 })
             }
