@@ -1,4 +1,5 @@
 # SwiftUI-TopTabBar
+Scrollable and Fixed Top Tab Bar with SwiftUI
 ## Demo
 ### ScrollableTopTabBar
 ![demo](https://github.com/skw398/SwiftUI-TopTabBar/assets/114917347/1cf855b7-1b4a-45c1-9fcd-da846a989b98)
